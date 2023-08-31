@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55DA6F8B2AA11CA100E0B685 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA6F8A2AA11CA100E0B685 /* CategoriesView.swift */; };
+		55DA6F8D2AA11ED700E0B685 /* EditCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA6F8C2AA11ED700E0B685 /* EditCategoryView.swift */; };
+		55DA6F8F2AA1444B00E0B685 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA6F8E2AA1444B00E0B685 /* AddCategoryView.swift */; };
 		55E50B7D2A9ED47100F04DCD /* PruebaTecnicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E50B7C2A9ED47100F04DCD /* PruebaTecnicaApp.swift */; };
 		55E50B7F2A9ED47100F04DCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E50B7E2A9ED47100F04DCD /* ContentView.swift */; };
 		55E50B812A9ED47200F04DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E50B802A9ED47200F04DCD /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55DA6F8A2AA11CA100E0B685 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		55DA6F8C2AA11ED700E0B685 /* EditCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCategoryView.swift; sourceTree = "<group>"; };
+		55DA6F8E2AA1444B00E0B685 /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
 		55E50B792A9ED47100F04DCD /* PruebaTecnica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaTecnica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E50B7C2A9ED47100F04DCD /* PruebaTecnicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaTecnicaApp.swift; sourceTree = "<group>"; };
 		55E50B7E2A9ED47100F04DCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55DA6F892AA11C7200E0B685 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55E50B7E2A9ED47100F04DCD /* ContentView.swift */,
+				55E50B9A2A9EE12400F04DCD /* ChildView.swift */,
+				55DA6F8A2AA11CA100E0B685 /* CategoriesView.swift */,
+				55DA6F8C2AA11ED700E0B685 /* EditCategoryView.swift */,
+				55DA6F8E2AA1444B00E0B685 /* AddCategoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		55E50B702A9ED47100F04DCD = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +81,11 @@
 		55E50B7B2A9ED47100F04DCD /* PruebaTecnica */ = {
 			isa = PBXGroup;
 			children = (
+				55DA6F892AA11C7200E0B685 /* View */,
 				55E50B992A9EE0FF00F04DCD /* Helpers */,
 				55E50B902A9ED99E00F04DCD /* Model */,
 				55E50B962A9EE09000F04DCD /* ViewModel */,
 				55E50B7C2A9ED47100F04DCD /* PruebaTecnicaApp.swift */,
-				55E50B7E2A9ED47100F04DCD /* ContentView.swift */,
 				55E50B802A9ED47200F04DCD /* Assets.xcassets */,
 				55E50B822A9ED47200F04DCD /* Preview Content */,
 			);
@@ -111,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				55E50B8D2A9ED96500F04DCD /* DataBase */,
-				55E50B9A2A9EE12400F04DCD /* ChildView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -192,12 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DA6F8B2AA11CA100E0B685 /* CategoriesView.swift in Sources */,
+				55DA6F8D2AA11ED700E0B685 /* EditCategoryView.swift in Sources */,
 				55E50B952A9EE00F00F04DCD /* Reddit.swift in Sources */,
 				55E50B7F2A9ED47100F04DCD /* ContentView.swift in Sources */,
 				55E50B982A9EE0BD00F04DCD /* ListViewModel.swift in Sources */,
 				55E50B932A9ED9D300F04DCD /* Categories.swift in Sources */,
 				55E50B8F2A9ED98800F04DCD /* DBManager.swift in Sources */,
 				55E50B9B2A9EE12400F04DCD /* ChildView.swift in Sources */,
+				55DA6F8F2AA1444B00E0B685 /* AddCategoryView.swift in Sources */,
 				55E50B7D2A9ED47100F04DCD /* PruebaTecnicaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

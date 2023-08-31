@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Categoria {
+struct Categoria: Hashable {
     let id : Int
-    let nombre : String
+    var nombre : String
 }
