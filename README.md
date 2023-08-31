@@ -52,6 +52,10 @@ Para almacenar y administrar las categorías, se utiliza una base de datos SQLit
 
 La comunicación con la API de Reddit se maneja en `ListViewModel.swift`. Se utiliza la clase `URLSession` para realizar solicitudes HTTP y recibir datos JSON que se decodifican en modelos de datos utilizables.
 
+### SwiftUI y Combine
+
+Este proyecto utiliza SwiftUI para crear la interfaz de usuario y Combine para la gestión de datos reactivos. Estas tecnologías permiten una construcción de interfaz de usuario moderna y una actualización eficiente de la vista en función de los cambios en los datos.
+
 ## Estructura del Proyecto
 
 - `ContentView.swift`: La vista principal de la aplicación que muestra los títulos de Reddit.
